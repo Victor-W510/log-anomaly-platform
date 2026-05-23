@@ -2,17 +2,17 @@
 services:
 
   log-anomaly:
-    build: ../log-anomaly
+    build: ../log-anomaly-collector
     ports:
       - "8080:8080"
     depends_on:
       mysql: 
         condition: service_healthy
     env_file:
-      - ../log-anomaly/.env
+      - ../log-anomaly-collector/.env
 
   ml-service:
-    build: ../ML-service
+    build: ../log-anomaly-ml-service
     depends_on:
       mysql:
         condition: service_healthy
