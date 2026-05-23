@@ -1,3 +1,4 @@
+<img width="2391" height="352" alt="_- visual selection" src="https://github.com/user-attachments/assets/ab02c8ba-83ca-460a-8434-c65016248923" />
 
 
 #  Log Anomaly Detection Platform
@@ -108,7 +109,6 @@ docker compose down
 ```
  
 ---
-<img width="1808" height="576" alt="BYNBv" src="https://github.com/user-attachments/assets/589e8f80-ccc5-4cb7-aad6-28511e9682d5" />
 
  
 ##  Tech Stack
